@@ -1,0 +1,28 @@
+(x) = ne pisemo (zastarjelo gradivo)
+(/y) = ako su dva odgovora, onaj koji nije u zagradi je tocniji (tj. vise ljudi kaze da je to bolji odg)
+
+1. d
+2. b
+3. c
+4. c
+5. b
+6. c
+7. c
+8. b
+9. c
+10. d (x)
+11. b
+12. a (x)
+13. b
+14. b
+15. c (x)
+16. c (x)
+17. a (x)
+18. a
+19. c (x)
+20. d
+21. sw1: (MAC-PC1   | port 0)
+               (MAC-PC4 | port 2)
+      sw2: (MAC-PC1  | port 0)
+               (MAC-PC4 | port 2)
+22. 50 MSS (RTT * v/500 okt.)

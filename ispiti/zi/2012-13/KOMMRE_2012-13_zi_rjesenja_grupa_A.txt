@@ -1,0 +1,40 @@
+(x) = ne pisemo (zastarjelo gradivo)
+(/y) = ako su dva odgovora, onaj koji nije u zagradi je tocniji (tj. vise ljudi kaze da je to bolji odg)
+
+1. a
+2. d
+3. c
+4. b
+5. a
+6. d
+7. b
+8. c
+9.  a
+10. d
+11. b
+12. c (x)
+13. b
+14. c
+15. d (x)
+16. b (x)
+17. c (x)
+18. a
+19. b(/c)
+20. c
+21. sw1: (MAC-PC1   | port 0)
+               (MAC-PC4 | port 2)
+      sw2: (MAC-PC1  | port 0)
+               (MAC-PC4 | port 2)
+22. 50 (MSS?)  (RTT * v/500 okt.)
+23. a) misko.tel.fer.hr salje ARP-upit za MAC-adresom svog DNS-posluzitelja dns.tel.fer.hr
+23. b) dns.tel.fer.hr salje DNS-upit do i.root-servers.net
+23. c) GET /predmeti/kommre HTTP/1.1
+24. 1 SMTP           (klijent posiljatelja ---> odlazni MTA)
+      2 DNS              (odlazni MTA ---> DNS posluzitelj)
+      3 DNS              (DNS posluzitelj ---> odlazni MTA)
+      4 SMTP           (odlazni MTA ---> odredisni MTA)
+      5 POP/IMAP  (odredisni MTA ---> klijent primatelja)
+25. 3 TCP veze (klijent-www.xyz.hr, klijent-www.abc.hr, klijent-def.hr)
+       parametri HTTP asocijacije: transportni protokol, IP adrese klijenta i posluzitelja, broj vrata za klijentski i posluziteljski proces (inace je za asocijaciju potreban i aplikacijski al ovdje je vec definirano)
+26. privatna adresa:vrata  |  javna adresa:vrata  |  odredisna adresa:vrata
+       192.168.19.10:1335       |  163.140.15.1:1335     |  161.153.19.5:80
